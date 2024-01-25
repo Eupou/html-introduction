@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>HTML repo</title>
 </head>
 <body>
-    
+    <main>
+        <div class="container-introduction">
+            <article class="article">
+                <h1 class="main-title">Meu conjunto de estudos de HTML</h1>
+                <p class="paragraph-brief">
+                    HTML(Hyper Text Markup Language) é a linguagem de marcação que constrói a web como a conhecemos. A analogia
+                    mais comum é a do prédio onde o HTML seria sua fundação, o CSS sua pintura e JavaScript a parte eletrica e afins
+                </p>
+            </article>
+        </div>
+
+        <article class="article">
+            <h1 class="paragraph-title">
+                <span class="html-blocks">
+                    &lt;a&gt;
+                </span>
+            </h1>
+            <p class="paragraph-brief">
+                O elemento  <span class="html-blocks">&lt;a&gt;</span> é usado para criar um link (âncora), por meio do atributo href,
+                sendo assim a forma como a web se interliga, tendo a capacidade de levar o usuário de 
+                uma aba do site para outra ou ainda para outro site.
+            </p>
+            
+            <p class="paragraph-brief">
+                E também conta com uma serie de atributos que modificam a forma como link funciona. Segue o link da <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a">MDN</a> para mais informações.  
+            </p>
+
+            <p class="paragraph-brief">
+                <div class="code"><p class="object">console</p>.<p class="method">log</p>(exemplo1):</div>
+                <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal">Link para wikipedia</a>
+            </p>
+        </article>
+
+        <article class="article">
+            <h1 class="paragraph-title">
+                <span class="html-blocks">
+                    &lt;abbr&gt;
+                </span>
+            </h1>
+
+            <p class="paragraph-brief">
+                O elemento  <span class="html-blocks">&lt;abbr&gt;</span> é usado para fazer abreviações na
+                sua página, tipo <abbr title="Por favor" class="method">pfv</abbr> eu vou 
+                <abbr title="Mesmo" class="method">msm</abbr> usar <abbr title="Hyper Text Markup Language" class="method">HTML</abbr>
+                na minha vida?
+            </p>
+
+            <p class="paragraph-brief">
+                Onde eu acho mais sobre isso? <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/abbr">MDN</a>
+            </p>
+
+        </article>
+
+        <article class="article">
+            <h1 class="paragraph-title">
+                <span class="html-blocks">
+                    &lt;blockquote&gt;
+                </span>
+            </h1>
+
+            <p class="paragraph-brief"> 
+                O elemento <span class="html-blocks">&lt;blockquote&gt;</span> é usando para fazer uma citação.
+                Com o estilo padrão a unica diferença visível é uma pequena margin-left que é adicionada, se você quiser
+                esse traço vertical tera que criar seu próprio css. 
+            </p>
+
+            <div>
+                <blockquote  cite="https://www.youtube.com/watch?v=kf8kLF4A7Z4">
+                    <div class="quote-wrapper">
+                        <p class="paragraph-quote">"A maior revolução das máquinas é a impressora funcionar!"</p> 
+                        <p>- Adré Young</p>
+                    </div>
+                </blockquote>
+            </div>
+        </article>
+
+        <article class="details">
+            <h1 class="paragraph-title">
+                <span class="html-blocks">
+                    &lt;details&gt;
+                </span>
+            </h1>
+
+            <p class="paragraph-brief">O elemento <span class="html-blocks">&lt;details&gt;</span> cria um menu que mostra informçãoes 
+            apenas quando o usuário interaje com ele</p>
+
+            <details class="paragraph-brief">
+                <summary>medos do batman</summary>
+                Por razões legais esse conteúdo foi removido
+            </details>
+        </article>
+    </main>
+    <footer></footer>
 </body>
 </html>
